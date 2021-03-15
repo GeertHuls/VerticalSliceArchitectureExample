@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FAACC52A-9FF1-4E06-89CD-39CEE689C7BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8991AE2B-6C57-417B-9DB6-D2989BEBA47A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{12BA1BCE-235A-4409-936F-73661647F1BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B6831F23-1AB7-4BFD-A5A3-48B67D847807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3B2918CE-B19E-4250-BCF4-AFA95F5EDB5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{ECE77558-7E6E-4CF3-BC74-8DF8A0820D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Domain", "GloboTicket.TicketManagement.Domain\GloboTicket.TicketManagement.Domain.csproj", "{DB137303-8109-4737-89DB-C0622E695337}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB137303-8109-4737-89DB-C0622E695337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB137303-8109-4737-89DB-C0622E695337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB137303-8109-4737-89DB-C0622E695337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB137303-8109-4737-89DB-C0622E695337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12BA1BCE-235A-4409-936F-73661647F1BD} = {FAACC52A-9FF1-4E06-89CD-39CEE689C7BC}
+		{B6831F23-1AB7-4BFD-A5A3-48B67D847807} = {FAACC52A-9FF1-4E06-89CD-39CEE689C7BC}
+		{3B2918CE-B19E-4250-BCF4-AFA95F5EDB5E} = {FAACC52A-9FF1-4E06-89CD-39CEE689C7BC}
+		{ECE77558-7E6E-4CF3-BC74-8DF8A0820D54} = {FAACC52A-9FF1-4E06-89CD-39CEE689C7BC}
+		{DB137303-8109-4737-89DB-C0622E695337} = {B6831F23-1AB7-4BFD-A5A3-48B67D847807}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62D5F6FD-EE99-4EA2-826C-4FE3D4230CE6}
